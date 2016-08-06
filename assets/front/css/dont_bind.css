@@ -1,0 +1,62 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.main .fail{
+	text-align: center;
+	margin-top: 20%;
+	color: #35353a;
+	font: 2.5rem 微软雅黑;
+}
+.main .cat{
+	width: 30%;
+	margin: 18% auto;
+	display: block;
+}
+.main .wait{
+	text-align: center;
+	color: #878690;
+	margin-top: -5%;
+	font: 1.7rem 微软雅黑;
+}
+.main .bind{
+	display: block;
+	background-color: #6497e8;
+	border: none;
+	border-radius: 0.6rem;
+	width: 80%;
+	height: 3.5rem;
+	margin: 8rem auto 5rem auto;
+}
+.bind a{
+	display: block;
+	width: 100%;
+	color: #fff;
+	font: 1.4rem 微软雅黑;
+}
+@media (-webkit-min-device-pixel-ratio: 2) and (device-height: 480px), (min-device-pixel-ratio: 2) and (device-height: 480px){
+	.main .fail{
+		margin-top: 16%;
+		font: 2.3rem 微软雅黑;
+	}
+	.main .cat{
+		margin: 16% auto;
+	}
+	.main .wait{
+		margin-top: -6%;
+	}
+	.main .bind{
+		margin: 18% auto auto auto;
+	}
+}
+@media (min-device-height: 768px){
+	.main .fail{
+		margin-top: 13%;
+		font: 2.3rem 微软雅黑;
+	}
+	.main .bind{
+		margin: 13% auto auto auto;
+	}
+}

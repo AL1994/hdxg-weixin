@@ -1,0 +1,23 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.main .cat{
+	width: 30%;
+	margin: 38% auto;
+	display: block;
+}
+.main .wait{
+	text-align: center;
+	color: #878690;
+	margin-top: -5%;
+	font: 1.7rem 微软雅黑;
+}
+@media (-webkit-min-device-pixel-ratio: 2) and (device-height: 480px), (min-device-pixel-ratio: 2) and (device-height: 480px){
+	.main .cat{
+		margin: 16% auto;
+	}
+	.main .wait{
+		margin-top: -6%;
+	}
+}

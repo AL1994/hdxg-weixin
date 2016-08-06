@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix {
+	overflow: hidden; 
+	zoom: 1;
+}
+body {
+    font-family: 微软雅黑;
+}
+
+#container{
+	width: 84%;
+	margin: 0 auto;
+	/*background: #ccc;*/
+}
+#container h1{
+	font-size: 2.2rem;
+	margin-top: 3rem;
+}
+#detail{
+	margin-top: 3rem;
+}
+#detail li{
+	font-size: 1.8rem;
+	height: 4rem;
+	line-height: 4rem;
+	color: #2c2d30;
+}
+#pay{
+	width: 100%;
+	margin-top: 3rem;
+	padding-bottom: 6rem;
+	border-bottom: 1px solid #d4d4db;
+}
+#pay li{
+	font-size: 1.8rem;
+	color: #2c2d30;
+}
+#pay li:first-child{
+	margin-bottom: 1rem;
+}
+#p-total{
+	font-size: 1.8rem;
+	float: right;
+	height: 7rem;
+	line-height: 7rem;
+	color: #2c2d30;
+}
+#footer{
+	width: 100%;
+	height: 10rem;
+	line-height: 10rem;
+}
+#footer button{
+	width: 75%;
+	height: 3rem;
+	margin-left: 12.5%;
+	border: none;
+	background: #6497e8;
+	border-radius: 10px;
+}
+#footer a{
+	display: block;
+	width: 100%;
+	color: #fff;
+	font-size: 1.3rem;
+}

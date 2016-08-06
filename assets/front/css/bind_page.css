@@ -1,0 +1,62 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: url(../img/bg000.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	font-family: 微软雅黑;
+}
+#title{ 
+	color: white;
+	text-align: center;
+}
+.title1{
+	font-size: 2rem;
+	margin: 0 25% 2% 25%;
+}
+.title2{
+	font-size: 1rem;
+	margin: 5% 10% 10% 5%;
+}
+.name{
+	margin: 0 10% 5% 10%;
+}
+.password{
+	margin: 5% 10% 20% 10%;
+}
+img{
+	width:20%;
+	height: 20%;
+	margin: 10% 30%;
+}
+hr{
+	color:white;
+	width: 90%;
+	margin: 0 auto;
+}
+input{
+	width: 80%;
+	height: 3rem; 
+	margin: 5% 10%;
+	border-radius: 0.5rem;
+	border: none;
+	background: white;
+    opacity:.4;
+	text-indent: 10px;
+}
+button{
+	width:80%;
+	height: 3rem;
+	border-radius: 0.5rem;
+	background: #6497e8;
+	border:none;
+	margin: 0 10%;
+}
+button a{
+	text-decoration: none;
+	color: #fff;
+	font: 1.2rem 微软雅黑;
+}
